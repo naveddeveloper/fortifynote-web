@@ -1,0 +1,56 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Vercel / deployment
+.vercel/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage/test output
+coverage/
+*.lcov
+
+# Build output (if using build tools)
+dist/
+build/
+
+# PM2 process files
+pids/
+*.pid
+*.seed
+
+# Debug files
+*.swp
+*.bak
+*.tmp
+
+# Optional: Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: Logs or uploads
+uploads/
+.vercel

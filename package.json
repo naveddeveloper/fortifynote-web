@@ -1,0 +1,18 @@
+{
+  "name": "fortify-web",
+  "version": "1.0.0",
+  "description": "An Express.js app hosted on Vercel to redirect Appwrite password recovery links to the FortifyNote mobile app’s deep link (`fortifynote://reset-password`).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api/index.js",
+    "build": "echo 'No build step required for Express.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
